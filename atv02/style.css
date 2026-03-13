@@ -1,0 +1,218 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+
+/* CORES */
+
+:root{
+--verde-escuro:#2e5d33;
+--verde-claro:#6fbf73;
+--cinza:#e5e5e5;
+}
+
+
+
+/* BODY */
+
+body{
+font-family:'Roboto', sans-serif;
+background:var(--cinza);
+}
+
+
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+background:linear-gradient(to right,#2e5d33,#6fbf73);
+
+padding:15px 30px;
+color:white;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo img{
+width:60px;
+border-radius:10px;
+}
+
+.logo h1{
+font-family:'Poppins', sans-serif;
+}
+
+.cart{
+font-size:26px;
+}
+
+
+
+/* MENU */
+
+nav{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+background:#7fbf7f;
+
+padding:10px 20px;
+
+}
+
+.menu-links{
+display:flex;
+gap:15px;
+}
+
+.menu-links button{
+
+background:#bfbfbf;
+border:none;
+padding:7px 15px;
+
+border-radius:10px;
+
+cursor:pointer;
+}
+
+.menu-cart{
+background:#bfbfbf;
+padding:7px 15px;
+border-radius:10px;
+}
+
+
+
+/* HERO */
+
+.hero{
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+gap:20px;
+
+background:var(--verde-escuro);
+
+padding:25px;
+
+}
+
+.hero img{
+width:60%;
+border-radius:6px;
+}
+
+.seta{
+font-size:30px;
+color:white;
+background:none;
+border:none;
+cursor:pointer;
+}
+
+
+
+/* PRODUTOS */
+
+.produtos{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+
+gap:60px;
+
+padding:40px;
+
+}
+
+
+
+/* CARD */
+
+.card{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+background:#d9d9d9;
+
+padding:15px;
+
+border-radius:12px;
+
+width:170px;
+
+text-align:center;
+
+gap:8px;
+
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+.preco-antigo{
+text-decoration:line-through;
+font-size:12px;
+}
+
+.preco{
+font-weight:bold;
+}
+
+.card button{
+
+background:#8a8a8a;
+border:none;
+
+padding:6px;
+
+border-radius:6px;
+
+color:white;
+
+cursor:pointer;
+
+font-size:12px;
+
+}
+
+
+
+/* FOOTER */
+
+footer{
+
+background:var(--verde-escuro);
+
+color:white;
+
+padding:15px;
+
+text-align:center;
+
+font-size:14px;
+
+}
