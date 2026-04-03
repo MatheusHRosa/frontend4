@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "breadcrumbs.enabled": false,
   "editor.fontSize": 18,
   "debug.console.fontSize": 20,
@@ -32,4 +32,6 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
+  
+  
 }

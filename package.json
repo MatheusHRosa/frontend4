@@ -1,0 +1,20 @@
+{
+  "name": "frontend4",
+  "version": "1.0.0",
+  "description": "Repositório destinado às aulas teóricas e às atividades práticas da disciplina.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusHRosa/frontend4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusHRosa/frontend4/issues"
+  },
+  "homepage": "https://github.com/MatheusHRosa/frontend4#readme"
+}
